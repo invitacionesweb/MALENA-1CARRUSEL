@@ -83,7 +83,7 @@ header .header-info {
     justify-content: center;
     text-align: center;
     gap: -3px;
-    padding-top: 80px;
+    padding-bottom: 120px;
 }
 .infoimportante a {
     margin: 0px 0 0 0;
@@ -190,22 +190,15 @@ audio::-webkit-media-controls-current-time-display {
      text-decoration: none;
  }
  .boton2 {
-    border: 1px solid var(--color-principal);
-    background-color: var(--color-principal);
-    color: var(--color-secundario);
+    border: 1px solid #AE5B5D;
+    background-color: transparent;
+    color: #AE5B5D;
     padding: 10px 30PX;
     text-decoration: none;
     margin-top:0px;
     border-radius: 50px;
  }
- .boton2:hover {
-     color: var(--color-terciario);
-     background-color: var(--color-principal);
-     border: 1px solid var(--color-terciario);
-     padding: 10px 30PX;
-     text-align: center;
-     text-decoration: none;
- }
+
 .countdown {
     background-color: var(--color-principal);
     color: var(--color-terciario);
